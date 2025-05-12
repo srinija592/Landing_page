@@ -1,0 +1,199 @@
+
+#footer-contact {
+    scroll-margin-top: 100px; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+header.hero-section {
+    position: relative;
+    background: url('home_page.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+header.hero-section .hero-content {
+    position: relative;
+    z-index: 2;
+    color: #ffffff; 
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.cta-button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.value-propositions {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+.value-propositions h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.values {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.value-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.featured-products {
+    padding: 50px 0;
+    text-align: center;
+}
+.featured-products h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.product-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-item:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+    transform: translateY(-5px); 
+}
+.buy-button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px; 
+    display: inline-block;
+}
+.testimonials {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+.testimonials h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.testimonial-item {
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+.footer {
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+.footer p {
+    margin: 0;
+}
+.footer-links {
+    margin-top: 10px;
+}
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.contact-us {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+.contact-us h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.contact-us p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.contact-form button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #45a049;
+}
+
+.cta-button:hover, .consult-button:hover, .buy-button:hover, .read-more:hover, .contact-form button:hover {
+    background: rgba(76, 175, 80, 0.8); 
+    color: white; 
+}
