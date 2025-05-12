@@ -20,4 +20,4 @@ Open index.html in a browser, or check the live demo link below.
 
 ## Live Demo
 
-[Click here to open the landing page](https://your-username.github.io/repo-name/)
+https://srinija592.github.io/Landing_page/
